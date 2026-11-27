@@ -1,0 +1,25 @@
+{
+  "code": "surface_d5",
+  "mode": "superdense",
+  "basis": "X",
+  "rounds": 5,
+  "data_qubits": 25,
+  "total_qubits": 49,
+  "logical_qubits": 1,
+  "pair_batches": 4,
+  "round_ticks": [
+    40,
+    40,
+    40,
+    40,
+    40
+  ],
+  "noise": {
+    "p1": 0.001,
+    "p2": 0.001,
+    "pm": 0.001,
+    "pr": 0.001,
+    "pi": 0.001
+  },
+  "fault_distance_status": "not certified"
+}
