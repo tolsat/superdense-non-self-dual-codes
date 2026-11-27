@@ -1,0 +1,25 @@
+{
+  "code": "surface_d5",
+  "mode": "baseline",
+  "basis": "X",
+  "rounds": 5,
+  "data_qubits": 25,
+  "total_qubits": 49,
+  "logical_qubits": 1,
+  "pair_batches": 4,
+  "round_ticks": [
+    48,
+    48,
+    48,
+    48,
+    48
+  ],
+  "noise": {
+    "p1": 0.003,
+    "p2": 0.003,
+    "pm": 0.003,
+    "pr": 0.003,
+    "pi": 0.003
+  },
+  "fault_distance_status": "not certified"
+}

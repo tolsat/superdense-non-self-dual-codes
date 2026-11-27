@@ -1,0 +1,41 @@
+{
+  "code": "surface_d5",
+  "mode": "superdense",
+  "basis": "Z",
+  "regime": "idle_dominated",
+  "p": 0.003,
+  "decoder": {
+    "max_bp_iters": 30,
+    "bp_method": "minimum_sum",
+    "osd_order": 0
+  },
+  "shots": 1024,
+  "block_failures": 332,
+  "observable_failures": [
+    332
+  ],
+  "decode_seconds": 3.3390148998005316,
+  "sample_seconds": 0.00642829982098192,
+  "rounds": 5,
+  "round_ticks": [
+    40,
+    40,
+    40,
+    40,
+    40
+  ],
+  "total_qubits": 49,
+  "noise": {
+    "p1": 0.00030000000000000003,
+    "p2": 0.00030000000000000003,
+    "pm": 0.00030000000000000003,
+    "pr": 0.00030000000000000003,
+    "pi": 0.003
+  },
+  "fault_columns": 2581,
+  "detectors": 120,
+  "observables": 1,
+  "invisible_logical_mechanisms": [],
+  "fault_distance_status": "not certified",
+  "latest_setup_seconds": 0.2609400999499485
+}

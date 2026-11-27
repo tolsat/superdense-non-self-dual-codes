@@ -1,0 +1,36 @@
+{
+  "arguments": {
+    "codes": [
+      "surface_d3",
+      "surface_d5"
+    ],
+    "regimes": [
+      "uniform",
+      "idle_dominated"
+    ],
+    "bases": [
+      "X",
+      "Z"
+    ],
+    "p": [
+      0.003
+    ],
+    "shots": 1024,
+    "batch": 32,
+    "seed": 123456,
+    "max_bp_iters": 30,
+    "osd_order": 0,
+    "bp_method": "minimum_sum",
+    "save_samples": false,
+    "self_test_only": false
+  },
+  "environment": {
+    "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "stim": "1.16.0",
+    "ldpc": "2.4.1"
+  },
+  "part_b_sha256": "fdd0847b27ec14a035d89fca2abe88a84a6358a156011446412806dee46cbeca",
+  "part_c_sha256": "392925807bd34445001f7b318cf5c34c0d6a4ad537dd7c9c52a2ed631dac496f"
+}

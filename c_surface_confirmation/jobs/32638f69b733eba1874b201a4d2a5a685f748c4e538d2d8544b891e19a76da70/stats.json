@@ -1,0 +1,39 @@
+{
+  "code": "surface_d3",
+  "mode": "baseline",
+  "basis": "X",
+  "regime": "idle_dominated",
+  "p": 0.003,
+  "decoder": {
+    "max_bp_iters": 30,
+    "bp_method": "minimum_sum",
+    "osd_order": 0
+  },
+  "shots": 1024,
+  "block_failures": 152,
+  "observable_failures": [
+    152
+  ],
+  "decode_seconds": 0.1610293003031984,
+  "sample_seconds": 0.004423900041729212,
+  "rounds": 3,
+  "round_ticks": [
+    32,
+    32,
+    32
+  ],
+  "total_qubits": 17,
+  "noise": {
+    "p1": 0.00030000000000000003,
+    "p2": 0.00030000000000000003,
+    "pm": 0.00030000000000000003,
+    "pr": 0.00030000000000000003,
+    "pi": 0.003
+  },
+  "fault_columns": 216,
+  "detectors": 24,
+  "observables": 1,
+  "invisible_logical_mechanisms": [],
+  "fault_distance_status": "not certified",
+  "latest_setup_seconds": 0.07655190001241863
+}

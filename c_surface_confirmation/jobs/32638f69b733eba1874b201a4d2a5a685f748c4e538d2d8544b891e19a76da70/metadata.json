@@ -1,0 +1,23 @@
+{
+  "code": "surface_d3",
+  "mode": "baseline",
+  "basis": "X",
+  "rounds": 3,
+  "data_qubits": 9,
+  "total_qubits": 17,
+  "logical_qubits": 1,
+  "pair_batches": 3,
+  "round_ticks": [
+    32,
+    32,
+    32
+  ],
+  "noise": {
+    "p1": 0.00030000000000000003,
+    "p2": 0.00030000000000000003,
+    "pm": 0.00030000000000000003,
+    "pr": 0.00030000000000000003,
+    "pi": 0.003
+  },
+  "fault_distance_status": "not certified"
+}

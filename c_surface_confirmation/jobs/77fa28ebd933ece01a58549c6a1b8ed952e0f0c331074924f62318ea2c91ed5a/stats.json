@@ -1,0 +1,39 @@
+{
+  "code": "surface_d3",
+  "mode": "superdense",
+  "basis": "Z",
+  "regime": "uniform",
+  "p": 0.003,
+  "decoder": {
+    "max_bp_iters": 30,
+    "bp_method": "minimum_sum",
+    "osd_order": 0
+  },
+  "shots": 1024,
+  "block_failures": 173,
+  "observable_failures": [
+    173
+  ],
+  "decode_seconds": 0.32126189954578876,
+  "sample_seconds": 0.004725700244307518,
+  "rounds": 3,
+  "round_ticks": [
+    29,
+    29,
+    29
+  ],
+  "total_qubits": 17,
+  "noise": {
+    "p1": 0.003,
+    "p2": 0.003,
+    "pm": 0.003,
+    "pr": 0.003,
+    "pi": 0.003
+  },
+  "fault_columns": 371,
+  "detectors": 24,
+  "observables": 1,
+  "invisible_logical_mechanisms": [],
+  "fault_distance_status": "not certified",
+  "latest_setup_seconds": 0.051015299977734685
+}
